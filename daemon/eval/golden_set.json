@@ -1,0 +1,402 @@
+[
+  {
+    "query": "How does OAuth2 password bearer token extraction work from request headers?",
+    "expected_chunk_id": "2be74ae5a3b8cbf0",
+    "source_file": "fastapi/security/oauth2.py",
+    "chunk_name": "OAuth2PasswordBearer.__call__",
+    "chunk_type": "method",
+    "notes": "method-level query for OAuth2PasswordBearer.__call__"
+  },
+  {
+    "query": "How do I register a new API route with custom methods and response models?",
+    "expected_chunk_id": "f656cbc9b5b781f2",
+    "source_file": "fastapi/routing.py",
+    "chunk_name": "APIRouter.add_api_route",
+    "chunk_type": "method",
+    "notes": "method-level query for APIRouter.add_api_route"
+  },
+  {
+    "query": "How does FastAPI resolve nested dependency injection at request time?",
+    "expected_chunk_id": "f20304ea76d53baf",
+    "source_file": "fastapi/dependencies/utils.py",
+    "chunk_name": "solve_dependencies",
+    "chunk_type": "function",
+    "notes": "function-level query for solve_dependencies"
+  },
+  {
+    "query": "How does CORS preflight request handling work in FastAPI middleware?",
+    "expected_chunk_id": "5096bbefe61ba4c5",
+    "source_file": "fastapi/middleware/cors.py",
+    "chunk_name": "CORSMiddleware.__call__",
+    "chunk_type": "method",
+    "notes": "method-level query for CORSMiddleware.__call__"
+  },
+  {
+    "query": "How does FastAPI encode Pydantic models and custom types to JSON?",
+    "expected_chunk_id": "9d9e46ba5e71f097",
+    "source_file": "fastapi/encoders.py",
+    "chunk_name": "jsonable_encoder",
+    "chunk_type": "function",
+    "notes": "function-level query for jsonable_encoder"
+  },
+  {
+    "query": "How does FastAPI handle HTTP exceptions and return error responses?",
+    "expected_chunk_id": "4aa583879a7db66c",
+    "source_file": "fastapi/exception_handlers.py",
+    "chunk_name": "http_exception_handler",
+    "chunk_type": "function",
+    "notes": "function-level query for http_exception_handler"
+  },
+  {
+    "query": "How do I add a background task to run after the response is sent?",
+    "expected_chunk_id": "2bf10ad5dc0953d1",
+    "source_file": "fastapi/background.py",
+    "chunk_name": "BackgroundTasks.add_task",
+    "chunk_type": "method",
+    "notes": "method-level query for BackgroundTasks.add_task"
+  },
+  {
+    "query": "How does FastAPI construct the request handler function for a route?",
+    "expected_chunk_id": "fc865207bd6242a7",
+    "source_file": "fastapi/routing.py",
+    "chunk_name": "APIRoute.get_route_handler",
+    "chunk_type": "method",
+    "notes": "method-level query for APIRoute.get_route_handler"
+  },
+  {
+    "query": "How is the OpenAPI schema generated from route definitions?",
+    "expected_chunk_id": "8703bab028c93917",
+    "source_file": "fastapi/openapi/utils.py",
+    "chunk_name": "get_openapi",
+    "chunk_type": "function",
+    "notes": "function-level query for get_openapi"
+  },
+  {
+    "query": "How does the Depends class work for dependency injection declaration?",
+    "expected_chunk_id": "713d56349d924fcb",
+    "source_file": "fastapi/params.py",
+    "chunk_name": "Depends.__init__",
+    "chunk_type": "method",
+    "notes": "method-level query for Depends.__init__"
+  },
+  {
+    "query": "How does HTTP Bearer authentication extract credentials from requests?",
+    "expected_chunk_id": "b13d103826a57dbd",
+    "source_file": "fastapi/security/http.py",
+    "chunk_name": "HTTPBearer.__call__",
+    "chunk_type": "method",
+    "notes": "method-level query for HTTPBearer.__call__"
+  },
+  {
+    "query": "How does API key authentication via header work in FastAPI?",
+    "expected_chunk_id": "98411c1d00b1bc31",
+    "source_file": "fastapi/security/api_key.py",
+    "chunk_name": "APIKeyHeader.__call__",
+    "chunk_type": "method",
+    "notes": "method-level query for APIKeyHeader.__call__"
+  },
+  {
+    "query": "How do I create a streaming response for large file downloads?",
+    "expected_chunk_id": "600422be874431ee",
+    "source_file": "fastapi/responses.py",
+    "chunk_name": "StreamingResponse.__init__",
+    "chunk_type": "method",
+    "notes": "method-level query for StreamingResponse.__init__"
+  },
+  {
+    "query": "How does the FastAPI test client send requests without a running server?",
+    "expected_chunk_id": "82c8cfd5228cf6fe",
+    "source_file": "fastapi/testclient.py",
+    "chunk_name": "TestClient.request",
+    "chunk_type": "method",
+    "notes": "method-level query for TestClient.request"
+  },
+  {
+    "query": "How do I mount a sub-router with a prefix and tags in FastAPI?",
+    "expected_chunk_id": "ca520dfdfc0951e3",
+    "source_file": "fastapi/applications.py",
+    "chunk_name": "FastAPI.include_router",
+    "chunk_type": "method",
+    "notes": "method-level query for FastAPI.include_router"
+  },
+  {
+    "query": "How does nested router inclusion work with prefix stacking?",
+    "expected_chunk_id": "c9771ce5a3bb7676",
+    "source_file": "fastapi/routing.py",
+    "chunk_name": "APIRouter.include_router",
+    "chunk_type": "method",
+    "notes": "method-level query for APIRouter.include_router"
+  },
+  {
+    "query": "How does FastAPI extract and validate query parameters from a request?",
+    "expected_chunk_id": "247ecf79431fc1fe",
+    "source_file": "fastapi/dependencies/utils.py",
+    "chunk_name": "request_params_to_args",
+    "chunk_type": "function",
+    "notes": "function-level query for request_params_to_args"
+  },
+  {
+    "query": "How is the Swagger UI HTML page generated for API documentation?",
+    "expected_chunk_id": "d6718da53fca8949",
+    "source_file": "fastapi/openapi/docs.py",
+    "chunk_name": "get_swagger_ui_html",
+    "chunk_type": "function",
+    "notes": "function-level query for get_swagger_ui_html"
+  },
+  {
+    "query": "How does trusted host middleware validate the Host header on requests?",
+    "expected_chunk_id": "c698a581cda0c265",
+    "source_file": "fastapi/middleware/trustedhost.py",
+    "chunk_name": "TrustedHostMiddleware.__call__",
+    "chunk_type": "method",
+    "notes": "method-level query for TrustedHostMiddleware.__call__"
+  },
+  {
+    "query": "How does OAuth2 authorization code flow token validation work?",
+    "expected_chunk_id": "f2bfcd608cabad25",
+    "source_file": "fastapi/security/oauth2.py",
+    "chunk_name": "OAuth2AuthorizationCodeBearer.__call__",
+    "chunk_type": "method",
+    "notes": "method-level query for OAuth2AuthorizationCodeBearer.__call__"
+  },
+  {
+    "query": "How are response_model and status_code configured on a route definition?",
+    "expected_chunk_id": "07c43706a53f0c4e",
+    "source_file": "fastapi/routing.py",
+    "chunk_name": "APIRoute.__init__",
+    "chunk_type": "method",
+    "notes": "method-level query for APIRoute.__init__"
+  },
+  {
+    "query": "What parameters does the FastAPI application constructor accept?",
+    "expected_chunk_id": "ad7ff830fd60cadb",
+    "source_file": "fastapi/applications.py",
+    "chunk_name": "FastAPI.__init__",
+    "chunk_type": "method",
+    "notes": "method-level query for FastAPI.__init__"
+  },
+  {
+    "query": "How does FastAPI run synchronous functions in a thread pool executor?",
+    "expected_chunk_id": "d448a9f74824c71f",
+    "source_file": "fastapi/concurrency.py",
+    "chunk_name": "run_in_threadpool",
+    "chunk_type": "function",
+    "notes": "function-level query for run_in_threadpool"
+  },
+  {
+    "query": "How does HTTP Basic authentication validate username and password credentials?",
+    "expected_chunk_id": "fad311fbfc55512c",
+    "source_file": "fastapi/security/http.py",
+    "chunk_name": "HTTPBasic.__call__",
+    "chunk_type": "method",
+    "notes": "method-level query for HTTPBasic.__call__"
+  },
+  {
+    "query": "How do I read the contents of an uploaded file asynchronously in FastAPI?",
+    "expected_chunk_id": "305cc720d135d9ce",
+    "source_file": "fastapi/datastructures.py",
+    "chunk_name": "UploadFile.read",
+    "chunk_type": "method",
+    "notes": "method-level query for UploadFile.read"
+  },
+  {
+    "query": "How does FileResponse serve static files with proper MIME type headers?",
+    "expected_chunk_id": "2d0b8b6ba0d326bd",
+    "source_file": "fastapi/responses.py",
+    "chunk_name": "FileResponse.__init__",
+    "chunk_type": "method",
+    "notes": "method-level query for FileResponse.__init__"
+  },
+  {
+    "query": "How does GZip response compression middleware work in FastAPI?",
+    "expected_chunk_id": "8eed720eef48b1b4",
+    "source_file": "fastapi/middleware/gzip.py",
+    "chunk_name": "GZipMiddleware.__call__",
+    "chunk_type": "method",
+    "notes": "method-level query for GZipMiddleware.__call__"
+  },
+  {
+    "query": "How do I register startup and shutdown event handlers on a sub-router?",
+    "expected_chunk_id": "c59a78921b305d11",
+    "source_file": "fastapi/routing.py",
+    "chunk_name": "APIRouter.on_event",
+    "chunk_type": "method",
+    "notes": "method-level query for APIRouter.on_event"
+  },
+  {
+    "query": "How are Pydantic validation errors formatted into error response bodies?",
+    "expected_chunk_id": "13ac1ad960c5a09e",
+    "source_file": "fastapi/exception_handlers.py",
+    "chunk_name": "request_validation_exception_handler",
+    "chunk_type": "function",
+    "notes": "function-level query for request_validation_exception_handler"
+  },
+  {
+    "query": "How does FastAPI collect all Pydantic models used across routes for OpenAPI?",
+    "expected_chunk_id": "d3002ba9458ef049",
+    "source_file": "fastapi/openapi/utils.py",
+    "chunk_name": "get_flat_models_from_routes",
+    "chunk_type": "function",
+    "notes": "function-level query for get_flat_models_from_routes"
+  },
+  {
+    "query": "How is the base OAuth2 security scheme class structured and what does it define?",
+    "expected_chunk_id": "b500a4a27588e187",
+    "source_file": "fastapi/security/oauth2.py",
+    "chunk_name": "OAuth2",
+    "chunk_type": "class",
+    "notes": "class-level query for OAuth2"
+  },
+  {
+    "query": "What methods does APIRouter expose for organizing endpoints into groups?",
+    "expected_chunk_id": "a095d221e7547009",
+    "source_file": "fastapi/routing.py",
+    "chunk_name": "APIRouter",
+    "chunk_type": "class",
+    "notes": "class-level query for APIRouter"
+  },
+  {
+    "query": "How is the main FastAPI application class structured and what does it inherit from?",
+    "expected_chunk_id": "f5be18c76cc97af7",
+    "source_file": "fastapi/applications.py",
+    "chunk_name": "FastAPI",
+    "chunk_type": "class",
+    "notes": "class-level query for FastAPI"
+  },
+  {
+    "query": "How does FastAPI build the dependency graph for a path operation function?",
+    "expected_chunk_id": "46eba3bdc3ee776b",
+    "source_file": "fastapi/dependencies/utils.py",
+    "chunk_name": "get_dependant",
+    "chunk_type": "function",
+    "notes": "function-level query for get_dependant"
+  },
+  {
+    "query": "How does FastAPI call the endpoint function handling both sync and async cases?",
+    "expected_chunk_id": "b4f7106ad4ea9ce3",
+    "source_file": "fastapi/routing.py",
+    "chunk_name": "run_endpoint_function",
+    "chunk_type": "function",
+    "notes": "function-level query for run_endpoint_function"
+  },
+  {
+    "query": "How does OAuth2PasswordRequestForm parse username and password from form data?",
+    "expected_chunk_id": "3b01a1f9dbd0bf08",
+    "source_file": "fastapi/security/oauth2.py",
+    "chunk_name": "OAuth2PasswordRequestForm",
+    "chunk_type": "class",
+    "notes": "class-level query for OAuth2PasswordRequestForm"
+  },
+  {
+    "query": "How does UploadFile wrap file objects and expose async read and seek methods?",
+    "expected_chunk_id": "0e9bc67e8b87fabf",
+    "source_file": "fastapi/datastructures.py",
+    "chunk_name": "UploadFile",
+    "chunk_type": "class",
+    "notes": "class-level query for UploadFile"
+  },
+  {
+    "query": "How does an API route handle an incoming HTTP request end to end?",
+    "expected_chunk_id": "5c03df3afa4384c8",
+    "source_file": "fastapi/routing.py",
+    "chunk_name": "APIRoute.handle",
+    "chunk_type": "method",
+    "notes": "method-level query for APIRoute.handle"
+  },
+  {
+    "query": "How does FastAPI manage generator-based dependencies with context managers?",
+    "expected_chunk_id": "f49b79a2d3cfa706",
+    "source_file": "fastapi/dependencies/utils.py",
+    "chunk_name": "solve_generator_dependency",
+    "chunk_type": "function",
+    "notes": "function-level query for solve_generator_dependency"
+  },
+  {
+    "query": "How are operation id and summary generated from the endpoint function name?",
+    "expected_chunk_id": "24019891e4a16b68",
+    "source_file": "fastapi/openapi/utils.py",
+    "chunk_name": "get_openapi_operation_metadata",
+    "chunk_type": "function",
+    "notes": "function-level query for get_openapi_operation_metadata"
+  },
+  {
+    "query": "How do I configure allowed origins methods and headers for CORS middleware?",
+    "expected_chunk_id": "0cfb0a22a90d98ed",
+    "source_file": "fastapi/middleware/cors.py",
+    "chunk_name": "CORSMiddleware.__init__",
+    "chunk_type": "method",
+    "notes": "method-level query for CORSMiddleware.__init__"
+  },
+  {
+    "query": "How does the Body parameter declaration work for JSON request body validation?",
+    "expected_chunk_id": "b1e931ff60db27cc",
+    "source_file": "fastapi/params.py",
+    "chunk_name": "Body.__init__",
+    "chunk_type": "method",
+    "notes": "method-level query for Body.__init__"
+  },
+  {
+    "query": "What fields does the HTTP authorization credentials model expose after parsing?",
+    "expected_chunk_id": "846194b65a1403aa",
+    "source_file": "fastapi/security/http.py",
+    "chunk_name": "HTTPAuthorizationCredentials",
+    "chunk_type": "class",
+    "notes": "class-level query for HTTPAuthorizationCredentials"
+  },
+  {
+    "query": "How are unique operation IDs generated to avoid collisions in the OpenAPI schema?",
+    "expected_chunk_id": "d3467cc27d63259f",
+    "source_file": "fastapi/routing.py",
+    "chunk_name": "generate_operation_id",
+    "chunk_type": "function",
+    "notes": "function-level query for generate_operation_id"
+  },
+  {
+    "query": "How does FastAPI detect whether a dependency or endpoint is a coroutine function?",
+    "expected_chunk_id": "82ba862f0275793e",
+    "source_file": "fastapi/dependencies/utils.py",
+    "chunk_name": "is_coroutine_callable",
+    "chunk_type": "function",
+    "notes": "function-level query for is_coroutine_callable"
+  },
+  {
+    "query": "How does the Query class declare query parameter metadata including default and alias?",
+    "expected_chunk_id": "f5266ef7089e94ac",
+    "source_file": "fastapi/params.py",
+    "chunk_name": "Query",
+    "chunk_type": "class",
+    "notes": "class-level query for Query"
+  },
+  {
+    "query": "How does the Path class enforce required path parameters with validation constraints?",
+    "expected_chunk_id": "63ec3336d9d4711c",
+    "source_file": "fastapi/params.py",
+    "chunk_name": "Path",
+    "chunk_type": "class",
+    "notes": "class-level query for Path"
+  },
+  {
+    "query": "How does JSONResponse serialize content and set the content-type header?",
+    "expected_chunk_id": "3b5a6181712f9b0f",
+    "source_file": "fastapi/responses.py",
+    "chunk_name": "JSONResponse",
+    "chunk_type": "class",
+    "notes": "class-level query for JSONResponse"
+  },
+  {
+    "query": "What fields does HTTPException expose and how is it raised in endpoint functions?",
+    "expected_chunk_id": "99c9bb2ace86e1e1",
+    "source_file": "fastapi/exceptions.py",
+    "chunk_name": "HTTPException",
+    "chunk_type": "class",
+    "notes": "class-level query for HTTPException"
+  },
+  {
+    "query": "How does BackgroundTasks collect and execute deferred tasks after the response?",
+    "expected_chunk_id": "7bc914bfb43e5328",
+    "source_file": "fastapi/background.py",
+    "chunk_name": "BackgroundTasks",
+    "chunk_type": "class",
+    "notes": "class-level query for BackgroundTasks"
+  }
+]

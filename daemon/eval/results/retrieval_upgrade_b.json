@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-05-05T00:38:27Z",
+  "provider": "keyword",
+  "upgrade": "B",
+  "overall": {
+    "golden_queries": 50,
+    "configs": [
+      {
+        "config": "50/50 (baseline)",
+        "semantic_weight": 0.5,
+        "recency_weight": 0.5,
+        "graph_weight": 0.0,
+        "label": "50/50 (baseline)",
+        "mrr_at_10": 0.7078,
+        "total_queries": 50,
+        "hit_at_1": 35,
+        "hit_at_3": 35,
+        "hit_at_10": 38,
+        "miss": 12
+      },
+      {
+        "config": "60/40 (baseline)",
+        "semantic_weight": 0.6,
+        "recency_weight": 0.4,
+        "graph_weight": 0.0,
+        "label": "60/40 (baseline)",
+        "mrr_at_10": 0.7078,
+        "total_queries": 50,
+        "hit_at_1": 35,
+        "hit_at_3": 35,
+        "hit_at_10": 38,
+        "miss": 12
+      },
+      {
+        "config": "55/30/15 (Upgrade B)",
+        "semantic_weight": 0.55,
+        "recency_weight": 0.3,
+        "graph_weight": 0.15,
+        "label": "55/30/15 (Upgrade B)",
+        "mrr_at_10": 0.7078,
+        "total_queries": 50,
+        "hit_at_1": 35,
+        "hit_at_3": 35,
+        "hit_at_10": 38,
+        "miss": 12
+      },
+      {
+        "config": "60/25/15",
+        "semantic_weight": 0.6,
+        "recency_weight": 0.25,
+        "graph_weight": 0.15,
+        "label": "60/25/15",
+        "mrr_at_10": 0.7078,
+        "total_queries": 50,
+        "hit_at_1": 35,
+        "hit_at_3": 35,
+        "hit_at_10": 38,
+        "miss": 12
+      },
+      {
+        "config": "65/15/20",
+        "semantic_weight": 0.65,
+        "recency_weight": 0.15,
+        "graph_weight": 0.2,
+        "label": "65/15/20",
+        "mrr_at_10": 0.7078,
+        "total_queries": 50,
+        "hit_at_1": 35,
+        "hit_at_3": 35,
+        "hit_at_10": 38,
+        "miss": 12
+      }
+    ],
+    "best_config": "50/50 (baseline)",
+    "best_mrr_at_10": 0.7078
+  },
+  "cross_file": {
+    "queries": 15,
+    "configs": [
+      {
+        "config": "50/50 (baseline)",
+        "semantic_weight": 0.5,
+        "recency_weight": 0.5,
+        "graph_weight": 0.0,
+        "label": "50/50 (baseline)",
+        "mrr_at_10": 0.0,
+        "total_queries": 15,
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_10": 0,
+        "miss": 15
+      },
+      {
+        "config": "60/40 (baseline)",
+        "semantic_weight": 0.6,
+        "recency_weight": 0.4,
+        "graph_weight": 0.0,
+        "label": "60/40 (baseline)",
+        "mrr_at_10": 0.0,
+        "total_queries": 15,
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_10": 0,
+        "miss": 15
+      },
+      {
+        "config": "55/30/15 (Upgrade B)",
+        "semantic_weight": 0.55,
+        "recency_weight": 0.3,
+        "graph_weight": 0.15,
+        "label": "55/30/15 (Upgrade B)",
+        "mrr_at_10": 0.0245,
+        "total_queries": 15,
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_10": 3,
+        "miss": 12
+      },
+      {
+        "config": "60/25/15",
+        "semantic_weight": 0.6,
+        "recency_weight": 0.25,
+        "graph_weight": 0.15,
+        "label": "60/25/15",
+        "mrr_at_10": 0.0245,
+        "total_queries": 15,
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_10": 3,
+        "miss": 12
+      },
+      {
+        "config": "65/15/20",
+        "semantic_weight": 0.65,
+        "recency_weight": 0.15,
+        "graph_weight": 0.2,
+        "label": "65/15/20",
+        "mrr_at_10": 0.0595,
+        "total_queries": 15,
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_10": 5,
+        "miss": 10
+      }
+    ],
+    "baseline_mrr": 0.0,
+    "graph_mrr": 0.0595,
+    "delta": 0.0595
+  }
+}

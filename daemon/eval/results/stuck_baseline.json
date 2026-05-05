@@ -1,0 +1,290 @@
+{
+  "timestamp": "2026-05-05T00:38:25Z",
+  "total_sessions": 30,
+  "session_breakdown": {
+    "truly_stuck": 15,
+    "reading_code": 10,
+    "false_alarm": 5
+  },
+  "session_results": [
+    {
+      "session_id": 1,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 2,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 3,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 4,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 5,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 6,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 7,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 8,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 9,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 10,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 11,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 12,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 13,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 14,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 15,
+      "session_type": "truly_stuck",
+      "ground_truth_stuck": true,
+      "expected_to_fire": true,
+      "fired": true,
+      "correct": true,
+      "tag": "TP"
+    },
+    {
+      "session_id": 16,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 17,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 18,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 19,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 20,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 21,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 22,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 23,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 24,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 25,
+      "session_type": "reading_code",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 26,
+      "session_type": "false_alarm",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 27,
+      "session_type": "false_alarm",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 28,
+      "session_type": "false_alarm",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 29,
+      "session_type": "false_alarm",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    },
+    {
+      "session_id": 30,
+      "session_type": "false_alarm",
+      "ground_truth_stuck": false,
+      "expected_to_fire": false,
+      "fired": false,
+      "correct": true,
+      "tag": "TN"
+    }
+  ],
+  "metrics": {
+    "true_positives": 15,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_negatives": 15,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  }
+}

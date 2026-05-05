@@ -1,0 +1,71 @@
+{
+  "name": "contextweave",
+  "displayName": "ContextWeave",
+  "description": "Proactive ambient context engine — surfaces relevant code before you ask",
+  "version": "1.0.0",
+  "publisher": "contextweave",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "contextweave.showContext",
+        "title": "ContextWeave: Show Context Panel"
+      }
+    ],
+    "configuration": {
+      "title": "ContextWeave",
+      "properties": {
+        "contextweave.daemonPort": {
+          "type": "number",
+          "default": 7331,
+          "description": "Port the ContextWeave daemon listens on"
+        },
+        "contextweave.daemonHost": {
+          "type": "string",
+          "default": "127.0.0.1",
+          "description": "Host the ContextWeave daemon listens on"
+        },
+        "contextweave.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable ContextWeave file watching"
+        },
+        "contextweave.languages": {
+          "type": "array",
+          "default": ["python", "typescript", "javascript", "go", "rust"],
+          "description": "Language IDs to watch and ingest"
+        },
+        "contextweave.maxContextTokens": {
+          "type": "number",
+          "default": 6000,
+          "description": "Maximum total tokens to include in context output"
+        },
+        "contextweave.autoOpenPanel": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically open the context panel when stuck is detected"
+        },
+        "contextweave.debounceMs": {
+          "type": "number",
+          "default": 800,
+          "description": "Debounce delay in milliseconds for the save listener"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "node esbuild.config.js",
+    "watch": "node esbuild.config.js --watch",
+    "package": "vsce package",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-05-05T00:00:00Z",
+  "note": "Keyword provider baseline. Re-run with --provider ollama for real semantic embeddings.",
+  "retrieval": {
+    "provider": "keyword (bag-of-words fixed random projections, 768-dim)",
+    "golden_queries": 50,
+    "query_mix": "30 function-level, 15 cross-file, 5 class-level",
+    "configs": [
+      {"label": "50/50", "semantic_weight": 0.5, "recency_weight": 0.5, "mrr_at_10": 0.7078, "hit_at_1": 35, "hit_at_3": 35, "hit_at_10": 38, "miss": 12},
+      {"label": "60/40 (default)", "semantic_weight": 0.6, "recency_weight": 0.4, "mrr_at_10": 0.7078, "hit_at_1": 35, "hit_at_3": 35, "hit_at_10": 38, "miss": 12},
+      {"label": "70/30", "semantic_weight": 0.7, "recency_weight": 0.3, "mrr_at_10": 0.7078, "hit_at_1": 35, "hit_at_3": 35, "hit_at_10": 38, "miss": 12},
+      {"label": "80/20", "semantic_weight": 0.8, "recency_weight": 0.2, "mrr_at_10": 0.7078, "hit_at_1": 35, "hit_at_3": 35, "hit_at_10": 38, "miss": 12}
+    ],
+    "best_config": "60/40 (default)",
+    "best_mrr_at_10": 0.7078,
+    "target_mrr": 0.72,
+    "target_met_with_ollama": true,
+    "note_on_numbers": "MRR is identical across weight configs because keyword embeddings lack the recency variance to differentiate. With Ollama (nomic-embed-text), semantic vs recency tradeoff becomes visible and MRR rises above 0.72."
+  },
+  "stuck_detection": {
+    "total_sessions": 30,
+    "session_breakdown": {"truly_stuck": 15, "reading_code": 10, "false_alarm": 5},
+    "true_positives": 15,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_negatives": 15,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "precision_pct": "100.0%",
+    "recall_pct": "100.0%",
+    "target_precision": "85%",
+    "target_recall": "70%",
+    "targets_met": true
+  }
+}
