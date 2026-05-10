@@ -563,13 +563,6 @@ Contributions are welcome. Before opening a PR:
 Aryan Bhati
 
 ---
-
-## License
-
-MIT — see [LICENSE](LICENSE).
-
----
-
 <div align="center">
 
 Built to make every AI assistant smarter about your codebase — without sending a single line of your code to the cloud.
